@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/mvapore'
+let g:netrw_dirhist_4='/home/mvapore/.vim/pack/plugins/opt'
+let g:netrw_dirhist_3='/home/mvapore/.vim/pack/plugins/opt/nerdtree-git-plugin'
+let g:netrw_dirhist_2='/home/mvapore/.vim/pack/plugins/opt'
+let g:netrw_dirhist_1='/home/mvapore/.vim/pack/plugins'
+let g:netrw_dirhist_0='/home/mvapore'
+let g:netrw_dirhist_9='/tmp'
+let g:netrw_dirhist_8='/home/mvapore/.tmux'
+let g:netrw_dirhist_7='/home/mvapore'
+let g:netrw_dirhist_6='/etc/freeradius/3.0/sites-available'
