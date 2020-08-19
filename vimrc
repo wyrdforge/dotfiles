@@ -124,3 +124,8 @@ augroup END
 
 map <C-n> :NERDTreeToggle<CR>
 
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif
+
