@@ -2,3 +2,51 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "vim/pack/plugins/start/nerdtree"]
+	path = vim/pack/plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/pack/plugins/start/nerdtree-git-plugin"]
+	path = vim/pack/plugins/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "vim/pack/syntax/opt/elixir"]
+	path = vim/pack/syntax/opt/elixir
+	url = https://github.com/elixir-lang/vim-elixir
+[submodule "vim/pack/plugins/start/fugitive"]
+	path = vim/pack/plugins/start/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/pack/plugins/start/vim-tmux-navigator"]
+	path = vim/pack/plugins/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "vim/pack/plugins/start/vim-airline"]
+	path = vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/pack/plugins/start/zzz-vim-devicons"]
+	path = vim/pack/plugins/start/zzz-vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "vim/pack/plugins/start/vim-elixir"]
+	path = vim/pack/plugins/start/vim-elixir
+	url = https://github.com/elixir-editors/vim-elixir.git
+[submodule "plugins/start/vim-dadbod"]
+	path = plugins/start/vim-dadbod
+	url = https://github.com/tpope/vim-dadbod.git
+[submodule "vim/pack/plugins/start/alchemist.vim"]
+	path = vim/pack/plugins/start/alchemist.vim
+	url = https://github.com/slashmili/alchemist.vim.git
+[submodule "vim/pack/plugins/start/elixir-ctags"]
+	path = vim/pack/plugins/start/elixir-ctags
+	url = https://github.com/mmorearty/elixir-ctags.git
+[submodule "vim/pack/plugins/start/tagbar"]
+	path = vim/pack/plugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "vim/pack/plugins/start/vim-endwise"]
+	path = vim/pack/plugins/start/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "vim/pack/plugins/start/fzf-vim"]
+	path = vim/pack/plugins/start/fzf-vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim/pack/plugins/start/fzf"]
+	path = vim/pack/plugins/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "vim/pack/plugins/opt/vim-airline-themes"]
+	path = vim/pack/plugins/opt/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
