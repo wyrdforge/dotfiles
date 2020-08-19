@@ -26,9 +26,6 @@
 [submodule "vim/pack/plugins/start/vim-elixir"]
 	path = vim/pack/plugins/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir.git
-[submodule "plugins/start/vim-dadbod"]
-	path = plugins/start/vim-dadbod
-	url = https://github.com/tpope/vim-dadbod.git
 [submodule "vim/pack/plugins/start/alchemist.vim"]
 	path = vim/pack/plugins/start/alchemist.vim
 	url = https://github.com/slashmili/alchemist.vim.git
@@ -50,3 +47,15 @@
 [submodule "vim/pack/plugins/opt/vim-airline-themes"]
 	path = vim/pack/plugins/opt/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vim/pack/plugins/start/vim-dadbod"]
+	path = vim/pack/plugins/start/vim-dadbod
+	url = https://github.com/tpope/vim-dadbod.git
+[submodule "tmux/plugins/nord-tmux"]
+	path = tmux/plugins/nord-tmux
+	url = https://github.com/arcticicestudio/nord-tmux.git
+[submodule "tmux/plugins/tmux-resurrect"]
+	path = tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git

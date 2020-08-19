@@ -1,0 +1,4 @@
+pane	0	1	:zsh	1	:*	1	:/home/mvapore	0	vim	:vim migrate.report
+pane	0	1	:zsh	1	:*	2	:/home/mvapore	1	zsh	:
+window	0	1	1	:*	f3b4,238x61,0,0{119x61,0,0,0,118x61,120,0,1}
+state	0	

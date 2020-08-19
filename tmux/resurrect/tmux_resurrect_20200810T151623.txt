@@ -1,0 +1,4 @@
+pane	0	1	:docker	1	:*	1	:/home/mvapore	0	zsh	:
+pane	0	1	:docker	1	:*	2	:/home/mvapore/Projekte/MeinBITel/meinbitel-resources/docker	1	docker	:docker exec -ti meinbitel-backoffice /bin/bash
+window	0	1	1	:*	73b5,238x61,0,0{119x61,0,0,0,118x61,120,0,2}
+state	0	

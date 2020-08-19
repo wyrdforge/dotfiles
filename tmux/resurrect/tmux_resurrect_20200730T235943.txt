@@ -1,0 +1,4 @@
+pane	0	1	:ssh	1	:*	1	:/home/mvapore	0	less	:less /home/mvapore/Projekte/MeinBITel/meinbitel-resources/docker/build/freeradius3/freeradius-config/sites-enabled/bitel_portal
+pane	0	1	:ssh	1	:*	2	:/home/mvapore	1	ssh	:ssh staging.bitel.dev -l vapore
+window	0	1	1	:*	dfdc,190x46,0,0{95x46,0,0,1,94x46,96,0,2}
+state	0	

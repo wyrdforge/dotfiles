@@ -1,0 +1,4 @@
+pane	0	1	:zsh	1	:*	1	:/home/mvapore/dotfiles	0	zsh	:
+pane	0	1	:zsh	1	:*	2	:/home/mvapore/vim_backup/pack	1	zsh	:
+window	0	1	1	:*	8136,238x64,0,0{119x64,0,0,0,118x64,120,0,1}
+state	0	

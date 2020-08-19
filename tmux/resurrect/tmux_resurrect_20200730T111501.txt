@@ -1,0 +1,4 @@
+pane	0	1	:vim	1	:*	1	:/home/mvapore	1	vim	:vim .tmux.conf
+pane	0	1	:vim	1	:*	2	:/home/mvapore	0	zsh	:
+window	0	1	1	:*	9fce,206x55,0,0{103x55,0,0,0,102x55,104,0,1}
+state	0	

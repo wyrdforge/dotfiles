@@ -1,0 +1,4 @@
+pane	0	1	:[tmux]	1	:*	1	:/home/mvapore/.dotfiles	0	vim	:vim install.conf.yaml
+pane	0	1	:[tmux]	1	:*	2	:/home/mvapore	1	zsh	:
+window	0	1	1	:*	92e4,190x49,0,0{95x49,0,0,0,94x49,96,0,1}
+state	0	
