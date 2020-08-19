@@ -2,16 +2,28 @@
     link:
       create: true
       relink: true
+    shell:
+      stderr: true
 
-- clean: ['~']
+- clean: ['~', '~/.oh-my-zsh/custom/', '~/.oh-my-zsh/custom/plugins/']
+
+- shell:
+  - [sh pre-install.sh, Running pre installation script]
+  - [mkdir -p ~/.oh-my-zsh/custom/, Creating oh-my-zsh custom folders]
+  - [mkdir -p ~/.oh-my-zsh/custom/plugins, Creating oh-my-zsh custom plugins folders]
 
 - link:
     ~/.dotfiles: ""
+    ~/.zshrc:
+      force: true
+      path: zshrc
+    ~/.oh-my-zsh/custom/my-aliases.zsh: oh-my-zsh/custom/my-aliases.zsh
+    ~/.oh-my-zsh/custom/plugins/zsh-completions: oh-my-zsh/custom/plugins/zsh-completions/
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: oh-my-zsh/custom/plugins/zsh-syntax-highlighting/
     ~/.tmux: tmux
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim
     ~/.vimrc: vimrc
-    ~/.zshrc: zshrc
 
 - shell:
   - [sh fonts/install.sh, Installing Powerline fonts]

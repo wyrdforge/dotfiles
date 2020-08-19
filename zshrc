@@ -5,19 +5,22 @@ export TERM="xterm-256color"
 export EDITOR=vim
 
 export ZSH=$HOME/.oh-my-zsh
-ZSH_DISABLE_COMPFIX=true
 
+
+ZSH_DISABLE_COMPFIX=true
 ZSH_THEME="ys"
 
 plugins=(
   git
+  zsh-completions 
+  zsh-syntax-highlighting
   zsh-autosuggestions
 )
 
-source $ZSH/oh-my-zsh.sh
-
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+
+source $ZSH/oh-my-zsh.sh 
 
 if [ -d $HOME/.asdf ]; then
   . $HOME/.asdf/asdf.sh
