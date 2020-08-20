@@ -33,3 +33,6 @@ fi
 
 # To make direnv work,. this has to be the last entry ind .zshrc
 eval "$(direnv hook zsh)"
+
+bash $HOME/.motd
+

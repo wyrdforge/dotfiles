@@ -10,3 +10,4 @@ else
   /bin/sh -c "chmod +x $OMZDIR/tools/upgrade.sh"
   /bin/sh -c "$OMZDIR/tools/upgrade.sh"
 fi
+
