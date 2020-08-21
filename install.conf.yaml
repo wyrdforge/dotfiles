@@ -21,6 +21,9 @@
     ~/.oh-my-zsh/custom/plugins/zsh-completions: oh-my-zsh/custom/plugins/zsh-completions/
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: oh-my-zsh/custom/plugins/zsh-syntax-highlighting/
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: oh-my-zsh/custom/plugins/zsh-autosuggestions/  
+    ~/.config/neofetch/config.conf:
+      force: true
+      path: neofetch.conf
     ~/.tmux: tmux
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim

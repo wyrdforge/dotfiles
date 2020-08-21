@@ -34,5 +34,8 @@ fi
 # To make direnv work,. this has to be the last entry ind .zshrc
 eval "$(direnv hook zsh)"
 
-bash $HOME/.motd
+if which neofetch >/dev/null; then 
+    bash $HOME/.motd
+fi
+
 
