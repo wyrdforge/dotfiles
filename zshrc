@@ -22,6 +22,10 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 source $ZSH/oh-my-zsh.sh 
 
+if [ -f $HOME/bin/fubectl.source ]; then 
+  source $HOME/bin/fubectl.source
+fi
+
 if [ -d $HOME/.asdf ]; then
   . $HOME/.asdf/asdf.sh
   . $HOME/.asdf/completions/asdf.bash
